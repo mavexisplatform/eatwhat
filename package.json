@@ -1,12 +1,15 @@
 {
   "name": "eatwhat-monorepo",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build"
+    "dev": "turbo run dev"
   },
   "devDependencies": {
+    "railway": "^3.11.0",
     "turbo": "^1.13.0"
   }
 }

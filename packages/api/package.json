@@ -1,6 +1,9 @@
 {
   "name": "@eatwhat/api",
-  "scripts": {"dev": "tsx watch src/index.ts"},
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
   "dependencies": {
     "@eatwhat/shared": "workspace:*",
     "fastify": "^4.25.0",
