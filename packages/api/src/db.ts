@@ -1,0 +1,1 @@
+export const db = { sessions: new Map(), users: new Map() }
